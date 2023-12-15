@@ -26,6 +26,7 @@ Note: I know thsi is not the most efficient code and will optimise it when I hav
    sudo python fan_service.py
    ```
 
+
 **Now lets create a service**
 1. Now create the service so that the script automaticall starts on reboot and no manual intervention is needed. Make sure you copy over the contents of the `fan.service` file that is part of this repo. Make sure to replace the `$USER` attrivute with your username where the script is stored 
    ```
@@ -44,7 +45,9 @@ Note: I know thsi is not the most efficient code and will optimise it when I hav
    sudo systemctl start fan.service
    ```
 
+
 **Other userful service commands**
+
 There are several commands you can do to start, stop, restart, and check status.
 
 1. To stop the service.
