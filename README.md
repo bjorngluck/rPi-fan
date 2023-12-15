@@ -1,6 +1,8 @@
 # Getting a PWM fan running on a Ubuntu Raspberry Pi 4
 Collection of scripts to control the PWM fan speed on my Ubuntu 22.04 Raspberry Pi 4. Details of the PWM fan case and also sample demo Python scripts I used as a base can we found on the [PI4-FAN-PWM](https://www.waveshare.com/wiki/PI4-FAN-PWM) Wiki page. To create the actual service creation part I drew insparation from a [medium.com article](https://medium.com/codex/setup-a-python-script-as-a-service-through-systemctl-systemd-f0cc55a42267)
 
+Note: I know thsi is not the most efficient code and will optimise it when I have some more time. 
+
 
 **Creating the relevant Python script on your Raspberry Pi**
 
