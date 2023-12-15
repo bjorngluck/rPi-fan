@@ -5,7 +5,7 @@ After=multi-user.target
 [Service]
 Type=simple
 Restart=always
-ExecStart=sudo /usr/bin/python3 /home/bjorn/scripts/fan_service.py
+ExecStart=sudo /usr/bin/python3 /home/$USER/scripts/fan_service.py
 
 [Install]
 WantedBy=multi-user.target
