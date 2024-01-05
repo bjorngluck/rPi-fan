@@ -18,6 +18,7 @@ Note: I know thsi is not the most efficient code and will optimise it when I hav
 3. You will also install the relevant Python Raspberry Pi GPIO dependancies using [pip](https://pypi.org/project/pip/)
    ```
    sudo apt update
+   pip install RPi.GPIO
    pip install gpiozero
    ```
 
